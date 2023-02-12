@@ -1,0 +1,22 @@
+.about-item{
+    background-image: url('../../assets//images/about-bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 10px;
+}
+.about-item .about-child{
+    padding: 10px;
+    width: 50%;
+}
+.about-item h2{
+    text-align: left;
+}
+.about-item h2::after{
+    width: 0;
+}
+

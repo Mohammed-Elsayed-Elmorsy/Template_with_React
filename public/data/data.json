@@ -1,0 +1,46 @@
+[
+    {
+        "name" :"Mobile1"   ,
+        "id"   : 1        ,
+        "title":"Amazing",
+
+        "skills":[
+            {"name":"Html" ,"id":1 , "progress":"90%"},
+            {"name":"css"  ,"id":2 , "progress":"80%"},
+            {"name":"Java" ,"id":3 , "progress":"70%"}
+        ],
+        "port":[
+            { "id":10 ,"name":"Php" ,"img_url":"../images/portfolio-img7.jpg"},
+            { "id":1  ,"name":"Css" ,"img_url":"../images/portfolio-img1.jpg"},
+            { "id":9  ,"name":"Css" ,"img_url":"../images/portfolio-img4.jpg"},
+            { "id":12 ,"name":"Javascript","img_url":"../images/portfolio-img5.jpg"},
+            { "id":4  ,"name":"Html","img_url":"../images/portfolio-img7.jpg"},
+            { "id":3  ,"name":"Html","img_url":"../images/portfolio-img3.jpg"},
+            { "id":11 ,"name":"Javascript","img_url":"../images/portfolio-img4.jpg"},
+            { "id":2  ,"name":"Css" ,"img_url":"../images/portfolio-img2.jpg"},
+            { "id":7  ,"name":"Php" ,"img_url":"../images/portfolio-img7.jpg"},
+            { "id":5  ,"name":"Javascript","img_url":"../images/portfolio-img5.jpg"},
+            { "id":8  ,"name":"Php" ,"img_url":"../images/portfolio-img6.jpg"},
+            { "id":6  ,"name":"Javascript","img_url":"../images/portfolio-img8.jpg"}
+        ],
+        "social":[
+            {"name":"Follow Us On" ,"background":"red"  ,"title":"FaceBook" ,"id":1 , "icon":"fa fa-facebook"}, 
+            {"name":"Tweet Us On"  ,"background":"green", "title":"Twitter" ,"id":2 , "icon"    :"fa fa-twitter"},
+            {"name":"Subscribe On" ,"background":"blue" , "title":"Yputube" ,"id":3 , "icon":"fa fa-youtube"}
+        ]
+        
+    },
+    {
+        "name" :"Mobile2" , 
+        "id"   :2        ,
+        "title":"Awsome Work"
+
+    },
+    {
+        "name" :"Mobile3" , 
+        "id"   :3    ,
+        "title":"Fantastic Work"
+    }
+ 
+]
+

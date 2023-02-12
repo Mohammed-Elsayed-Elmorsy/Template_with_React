@@ -1,0 +1,64 @@
+.Link {
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.4s;
+}
+
+.Link:hover {
+    color: '';
+}
+
+
+h2 {
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    z-index: 1;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    background-color: black;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70px;
+    bottom: 7px;
+}
+
+.LI .Anchor {
+    padding: 10px 10px;
+}
+
+.Anchor:hover,
+.Anchor.active {
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.active {
+    background-color: orange;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+@media(max-width:768px) {
+    .container {
+        width: 98%;
+    }
+}
